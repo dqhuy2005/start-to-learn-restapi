@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .form {
+      width: 20%;
+      height: 300px;
+    }
+
+    .form input {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      list-style: none;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Danh sách các khóa học</h1>
+      <ul id="list-courses"></ul>
+      <div class="form">
+        <label for="">Name</label>
+        <input type="text" name="name" id="" />
+        <label for="">Description</label>
+        <input type="text" name="description" id="" />
+        <button id="create">Create</button>
+        <button id="update" style="display: none">Update</button>
+        <button id="reload">Reload</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
